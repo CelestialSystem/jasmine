@@ -11,7 +11,6 @@ getJasmineRequireObj().QueueRunner = function(j$) {
         // Direct call using single parameter, because cleanup/next does not need more
         fn(arg);
       }
-      return null;
     };
   }
 
